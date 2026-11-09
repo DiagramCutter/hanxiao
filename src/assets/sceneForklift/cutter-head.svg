@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 144" fill="none">
+  <title>细长支架双轮铣头示意</title>
+  <path d="M20 0h8v13h-8z" fill="#7ed3b9"/>
+  <path d="M13 10h22v111H13z" fill="#225d54"/>
+  <path d="M15 13h18v103H15z" fill="#17443d"/>
+  <path d="M13 11v111M35 11v111" stroke="#6bc3a3" stroke-width="5"/>
+  <path d="M15 17l18 22-18 22 18 23-18 23M33 17L15 39l18 22-18 23 18 23" stroke="#429e80" stroke-width="3"/>
+  <path d="M10 15h28M10 55h28M10 94h28M9 119h30" stroke="#91d7b7" stroke-width="3"/>
+  <path d="M20 36h8v67h-8z" fill="#6fc1a0"/>
+  <path d="M22 39h4v60h-4z" fill="#2f7764"/>
+  <path d="M8 113h32l3 15H5z" fill="#68b999"/>
+  <path d="M21 118h6v15h-6z" fill="#214f45"/>
+  <circle cx="12" cy="132" r="12" fill="#276b57"/>
+  <circle cx="36" cy="132" r="12" fill="#276b57"/>
+  <g stroke="#a8e7bf" stroke-width="2">
+    <circle cx="12" cy="132" r="8"/>
+    <circle cx="36" cy="132" r="8"/>
+    <path d="M12 122v20M2 132h20M5 125l14 14M5 139l14-14M36 122v20M26 132h20M29 125l14 14M29 139l14-14"/>
+  </g>
+  <circle cx="12" cy="132" r="3" fill="#173f35"/>
+  <circle cx="36" cy="132" r="3" fill="#173f35"/>
+</svg>

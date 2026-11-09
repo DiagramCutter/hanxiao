@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 88" preserveAspectRatio="none" fill="none">
+  <defs>
+    <linearGradient id="base" x1="836" y1="0" x2="836" y2="88" gradientUnits="userSpaceOnUse"><stop stop-color="#002039"/><stop offset="1" stop-color="#001322"/></linearGradient>
+    <linearGradient id="shine"><stop stop-color="#005b8c" stop-opacity="0"/><stop offset=".5" stop-color="#00bbf6"/><stop offset="1" stop-color="#008dc2" stop-opacity=".3"/></linearGradient>
+    <linearGradient id="wing"><stop stop-color="#004c7a" stop-opacity="0"/><stop offset="1" stop-color="#007caf" stop-opacity=".45"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#0b6b99" stop-opacity=".35"/><stop offset="1" stop-color="#005187" stop-opacity="0"/></radialGradient>
+    <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><path d="M0 0V5" stroke="#008fd0" stroke-opacity=".2" stroke-width="1"/></pattern>
+    <g id="wings">
+      <path d="M240 7H542Q551 7 557 14L575 34L644 42L616 0H240Z" fill="url(#wing)"/>
+      <path d="M350 8H545L568 32L628 38M300 21H550L575 45L645 48" stroke="url(#shine)" stroke-width="1.4"/>
+      <path d="M350 29H551L575 57H586M389 46H548L565 65" stroke="#0089c6" stroke-opacity=".6"/>
+      <path d="M430 0H543L570 29L556 27L541 12H441Z" fill="url(#hatch)"/>
+      <path d="M550 5L564 5L586 29M574 6L590 24L632 31M567 8L578 20L577 25L570 20Z" stroke="#087aa9" stroke-opacity=".65"/>
+      <path d="M548 18L558 29M556 14L567 25" stroke="#4acafa" stroke-width="1.3"/>
+      <circle cx="572" cy="26" r="2" stroke="#24acdf"/>
+    </g>
+  </defs>
+  <path fill="url(#base)" d="M0 0H1672V66H1072L1050 88H622L600 66H0Z"/>
+  <ellipse cx="836" cy="14" rx="460" ry="72" fill="url(#glow)"/>
+  <use href="#wings"/>
+  <use href="#wings" transform="translate(1672 0) scale(-1 1)"/>
+  <path d="M618 0L654 54H1018L1054 0" stroke="#126484" stroke-opacity=".8"/>
+  <path d="M0 66H600L622 88H1050L1072 66H1672" stroke="#00b7ee" stroke-opacity=".8"/>
+  <path d="M654 54H1018" stroke="url(#shine)"/>
+  <path d="M760 59V84M914 59V84" stroke="#0b4865"/>
+  <path d="M622 87H1050" stroke="#12d6f6" stroke-opacity=".4"/>
+</svg>
